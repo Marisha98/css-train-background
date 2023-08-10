@@ -105,6 +105,7 @@ p {
 }
 
 .task10 {
+  background-repeat: round;
 }
 
 .task11 {
@@ -116,6 +117,7 @@ p {
 }
 
 .task13 {
+  background-attachment: local;
 }
 
 .task14 {
@@ -176,17 +178,17 @@ p {
 }
 
 .task28 {
-  background-clip: padding-box;
+  background-origin: border-box;
   background-repeat: no-repeat;
 }
 
 .task29 {
-  box-sizing: border-box;
+  background-origin: padding-box;
   background-repeat: no-repeat;
 }
 
 .task30 {
-  background-clip: content-box;
+  background-origin: content-box;
 }
 
 .task31 {
